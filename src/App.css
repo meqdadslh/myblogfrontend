@@ -3,6 +3,12 @@
   padding: 20px;
   background-color: #282c34;
   color: white;
+  min-height: 100vh;
+}
+div.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 20px;
 }
 
 
