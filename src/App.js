@@ -18,7 +18,7 @@ function App() {
 
 
   useEffect(() => {
-    fetch('http://127.0.0.1:8000/blog/articles/', {
+    fetch('https://myblogdjangobackendma.herokuapp.com/blog/', {
       'method': 'GET',
       headers : {
         'content-Type':'application/json',
